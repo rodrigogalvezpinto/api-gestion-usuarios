@@ -31,6 +31,4 @@ public class GlobalExceptionHandler {
                 .status(HttpStatus.BAD_REQUEST)
                 .body(ErrorResponse.builder().mensaje(e.getMessage()).build());
     }
-
-    // Puedes añadir más manejadores para otros tipos de excepciones personalizadas
 } 
